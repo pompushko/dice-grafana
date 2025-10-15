@@ -17,7 +17,8 @@ This project deploys a Flask dice rolling application to a local Minikube cluste
 podman build -t dice-app:latest .
 
 # Load the image into Minikube
-minikube image load dice-app:latest
+podman save dice-app:latest -o dice-app.tar
+minikube image load dice-app.tar
 ```
 
 ### 2. Enable Ingress
