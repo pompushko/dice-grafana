@@ -2,6 +2,8 @@
 
 This project deploys a Flask dice rolling application to a local Minikube cluster running on Podman, complete with monitoring via Prometheus and Grafana.
 
+![screenshot](image.png)
+
 ## Prerequisites
 
 - Minikube with Podman driver
